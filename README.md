@@ -1,8 +1,5 @@
 # FCP-Class
 Python program that run three class such as; Fan, Car, and Pet for abstraction and encapsulation problems.
-
-# Calculator2
-redo program of calculator with used of OBJECT ORIENTED PROGRAMMING
     
 # ❓ How this program run: Fan Class
 - 
