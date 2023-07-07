@@ -20,7 +20,8 @@ class Fan:
         return self.__on
     def setOn(self, on):
         self.on = on
-
+    def getSpeed(self):
+        return self.__speed
+    def setSpeed(self, speed):
+        self.__speed = speed
 # A constructor that creates a fan with the specified speed (default SLOW), radius (default 5), color (default blue), and on (default False)
-
-# Write a test program named TestFan that creates two fan objects. For the first object, assign a maximum speed, radius 10, color yellow, and turn it on. Assign medium speed, radius 5, color blue, and turn it off for the second object. Display each object's speed, radius, color, and on properties.
