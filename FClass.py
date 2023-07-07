@@ -4,6 +4,14 @@ class Fan:
     SLOW = 1
     MEDIUM = 2
     FAST = 3
+
+    def __init__(self,  on = False, speed = SLOW, radius = 5, color = blue):
+        self.__on = on
+        self.__speed = speed
+        self.__radius = radius
+        self.__color = color
+        
+        
 # A private data field named speed that specifies whether the fan is on (the default is False)
 # A private float data field named radius that specifies the radius of the fan
 # A private string data field named color that specifies the color of the fan
