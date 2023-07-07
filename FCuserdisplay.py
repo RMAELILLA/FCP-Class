@@ -26,4 +26,3 @@ class FCUSerDisplay(Fan):
 
         fan = Fan(on, speed, radius, color)
         return fan
-    
