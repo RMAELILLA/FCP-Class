@@ -2,7 +2,7 @@ from FClass import Fan
 
 class FCUSerDisplay(Fan):
     def assign_fan(self, fan_name):
-        print(f"Assign properties {fan_name}")
+        print(f"Assign object properties {fan_name}")
 
         on = input("Is the fan on? ")
 
