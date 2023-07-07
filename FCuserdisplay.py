@@ -1,6 +1,7 @@
 class FCUSerDisplay:
     def assign_fan(self):
         print("Assign Fan object: ")
+        
         speed = (input(\
         """
         What speed properties do you want in your fan?
@@ -17,7 +18,9 @@ class FCUSerDisplay:
         1-10
         """)
 
-        color = input(\
-        """
-        COLOR (can be anything you want):
-        """)
+        color = input("COLOR (can be anything you want): ")
+
+        on = input("Is the fan on? ")
+
+        fan = Fan(on, speed, radius, color)
+        return fan
