@@ -1,5 +1,9 @@
 # Design a class named Fan to represent a fan. The class contains:
-# Three constant named SLOWm, MEDIUM, and FAST, with the values 1,2, and 3 to denote the fan speed
+class Fan:
+# Three constant named SLOW, MEDIUM, and FAST, with the values 1,2, and 3 to denote the fan speed
+    SLOW = 1
+    MEDIUM = 2
+    FAST = 3
 # A private data field named speed that specifies whether the fan is on (the default is False)
 # A private float data field named radius that specifies the radius of the fan
 # A private string data field named color that specifies the color of the fan
