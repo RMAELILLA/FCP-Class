@@ -24,4 +24,12 @@ class Fan:
         return self.__speed
     def setSpeed(self, speed):
         self.__speed = speed
+    def getRadius(self):
+        return self.__radius
+    def setRadius(self, radius):
+        self.__radius = radius
+    def getColor(self):
+        return self.__color
+    def setColor(self, color):
+        self.__color = color
 # A constructor that creates a fan with the specified speed (default SLOW), radius (default 5), color (default blue), and on (default False)
