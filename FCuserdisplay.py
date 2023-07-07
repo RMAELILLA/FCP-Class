@@ -6,7 +6,7 @@ class FCUSerDisplay(Fan):
 
         on = input("Is the fan on? ")
 
-        speed = (input(\
+        speed = int(input(\
         """
         What speed properties do you want in your fan?
         
@@ -16,13 +16,14 @@ class FCUSerDisplay(Fan):
         3 = FAST
         """))
         
-        radius = input(\
+        radius = float(input(\
         """
         RADIUS:
         1-10
-        """)
+        """))
 
         color = input("COLOR (can be anything you want): ")
 
         fan = Fan(on, speed, radius, color)
         return fan
+    
