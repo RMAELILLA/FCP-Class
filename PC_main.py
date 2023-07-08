@@ -1,6 +1,6 @@
 from tkinter import Tk, Label, Entry, Button
 from PClass import Pet
-from PCuserdisplay import userdisplay, userPetinfo
+from PCuserdisplay import userPetinfo
 
 def GUI():
     root = Tk()
@@ -18,7 +18,7 @@ def GUI():
         pet.setName(name_entry.get())
         pet.setAnimal_type(Animal_type_entry.get())
         pet.setAge(age_entry.get())
-        userdisplay(pet)
+        userPetinfo(pet)
     
     save_button =  Button(root, text="Save", command=savePetinfo)
 
@@ -31,3 +31,6 @@ def GUI():
     save_button.grid(row=3, column=0, columnspan=2)
 
     root.mainloop
+
+if __name__ == "__main__":
+    GUI()
