@@ -20,7 +20,7 @@ def GUI():
         pet.setAge(age_entry.get())
         userPetinfo(pet)
     
-    save_button =  Button(root, text="Save", command=savePetinfo)
+    save_button = Button(root, text="Save", command=savePetinfo)
 
     name_label.grid(row=0, column=0)
     name_entry.grid(row=0, column=1)
@@ -30,7 +30,7 @@ def GUI():
     age_entry.grid(row=2, column=1)
     save_button.grid(row=3, column=0, columnspan=2)
 
-    root.mainloop
+    root.mainloop()
 
 if __name__ == "__main__":
     GUI()
