@@ -1,7 +1,7 @@
 from Cclass import Car
 
 class Cmain:
-    def userdisplay(self):
+    def userdisplay():
         year_model = input("Enter the year model of the car: ")
         make = input("Enter the make of the car: ")
     
@@ -15,5 +15,4 @@ class Cmain:
             car.brake()
             print("Current speed: ", car.get_speed())
 
-car = Cmain()
 Cmain.userdisplay()
