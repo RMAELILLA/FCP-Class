@@ -9,3 +9,5 @@ def PCUD():
     pet.setName(name)
     pet.setAnimal_type(animal_type)
     pet.setAge(age)
+
+    userPetinfo(pet)
