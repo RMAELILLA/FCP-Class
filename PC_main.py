@@ -13,16 +13,9 @@ def GUI():
     age_level = Label(root, text="Age: ")
     age_entry = Entry(root)
 
-def main():
-    pet = Pet()
-
-    name, animal_type, age = userdisplay()
-
-    pet.setName(name)
-    pet.setAnimal_type(animal_type)
-    pet.setAge(age)
-
-    userPetinfo(pet)
-
-if __name__ == "__main__":
-    main()
+    def savePetinfo():
+        pet = Pet()
+        pet.setName(name_entry.get())
+        pet.setAnimal_type(Animal_type_entry.get())
+        pet.setAge(age_entry.get())
+        userdisplay(pet)
