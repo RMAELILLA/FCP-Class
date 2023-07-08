@@ -7,9 +7,14 @@ class Cmain:
     
         car = Car(year_model, make)
 
+        print("Accelerating and Braking is being simulated...")
+        print("=" *100)
+
         for _ in range (5):
             car.accelerate()
             print("Current Speed: ", car.get_speed())
+
+        print("=" *100)
         
         for _ in range(5):
             car.brake()
