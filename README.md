@@ -2,7 +2,16 @@
 Python program that run three class such as; Fan, Car, and Pet for abstraction and encapsulation problems.
     
 # ❓ How this program run: Fan Class
-- 
+- Save the corrected code into three separate files: FClass.py, FCUserDisplay.py, and TestFan.py.
+- Make sure all three files (FClass.py, FCUserDisplay.py, and TestFan.py) are in the same directory.
+- Open a terminal or command prompt.
+- Navigate to the directory where the files are located using the cd command.
+- Run the TestFan.py file using the Python interpreter by executing the following command:
+_Note: Make sure you have Python installed and added to your system's PATH environment variable._
+- The program will start running and prompt you to input the properties for the first fan and then the second fan.
+- Follow the instructions in the terminal to provide the required inputs for each fan.
+- After entering the inputs for both fans, the program will display the properties of each fan, including the speed, radius, color, and whether the fan is turned on.
+- See the output in the terminal to see the fan properties for both fans.
 
 # ❓ How this program run: Car Class
 - 
