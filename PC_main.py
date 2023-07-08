@@ -1,7 +1,7 @@
 from PClass import Pet
 from PCuserdisplay import userdisplay, userPetinfo
 
-def PCUD():
+def main():
     pet = Pet()
 
     name, animal_type, age = userdisplay()
@@ -13,4 +13,4 @@ def PCUD():
     userPetinfo(pet)
 
 if __name__ == "__main__":
-    PCUD()
+    main()
