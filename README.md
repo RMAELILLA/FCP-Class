@@ -7,7 +7,7 @@ Python program that run three class such as; Fan, Car, and Pet for abstraction a
 - Open a terminal or command prompt.
 - Navigate to the directory where the files are located using the cd command.
 - Run the TestFan.py file using the Python interpreter by executing the following command:
-_Note: Make sure you have Python installed and added to your system's PATH environment variable._
+- _Note: Make sure you have Python installed and added to your system's PATH environment variable._
 - The program will start running and prompt you to input the properties for the first fan and then the second fan.
 - Follow the instructions in the terminal to provide the required inputs for each fan.
 - After entering the inputs for both fans, the program will display the properties of each fan, including the speed, radius, color, and whether the fan is turned on.
@@ -30,10 +30,16 @@ _Note: Make sure you have Python installed and added to your system's PATH envir
 - It displays the current speed to the user.
 - The loop repeats four more times, decreasing the speed each time.
 - The program execution ends, and the program exits.
-_During the execution of the program, you will see the current speed of the car displayed after each acceleration and brake action. The program simulates the acceleration and braking of a car and allows you to observe the changing speed._
+- _During the execution of the program, you will see the current speed of the car displayed after each acceleration and brake action. The program simulates the acceleration and braking of a car and allows you to observe the changing speed._
 
 # ❓ How this program run: Pet Class
-- 
+- Save the three files: PClass.py, PC_main.py, and PCuserdisplay.py files in the same directory.
+- _Make sure you have Tkinter installed. If it's not installed, you can typically install it using the package manager for your operating system (e.g., apt for Ubuntu, brew for macOS, or pip for Python package installation)._
+- Open a terminal or command prompt and navigate to the directory where you saved the files.
+- Run the command python PC_main.py to execute the program.
+- After running the command, a window will appear with input fields for the pet's name, animal type, and age. Enter the information and click the "Save" button. The program will then display the pet's information in the console.
+
+_Note: The program uses Python's Tkinter library to create a graphical user interface (GUI). If you encounter any errors related to Tkinter, please make sure it is properly installed on your system._
 
 # :heart: Contributor
 ![image](https://user-images.githubusercontent.com/129654335/234447504-b897eec1-0a8b-4350-a11f-6efdf0357b81.png)
