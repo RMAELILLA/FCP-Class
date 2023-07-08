@@ -14,3 +14,6 @@ class Cmain:
         for _ in range(5):
             car.brake()
             print("Current speed: ", car.get_speed())
+
+car = Cmain()
+Cmain.userdisplay()
