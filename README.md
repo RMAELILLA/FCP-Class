@@ -14,7 +14,23 @@ _Note: Make sure you have Python installed and added to your system's PATH envir
 - See the output in the terminal to see the fan properties for both fans.
 
 # ❓ How this program run: Car Class
-- 
+- It prompts the user to enter the year model of the car.
+- The user inputs the year model.
+- It prompts the user to enter the make of the car.
+- The user inputs the make.
+- It creates a Car object with the provided year model and make.
+- It enters a loop to accelerate the car five times.
+- Inside the loop, it calls the accelerate() method on the car object.
+- It retrieves the current speed of the car using the get_speed() method.
+- It displays the current speed to the user.
+- The loop repeats four more times, increasing the speed each time.
+- After the acceleration loop, it enters another loop to brake the car five times.
+- Inside the loop, it calls the brake() method on the car object.
+- It retrieves the current speed of the car using the get_speed() method.
+- It displays the current speed to the user.
+- The loop repeats four more times, decreasing the speed each time.
+- The program execution ends, and the program exits.
+_During the execution of the program, you will see the current speed of the car displayed after each acceleration and brake action. The program simulates the acceleration and braking of a car and allows you to observe the changing speed._
 
 # ❓ How this program run: Pet Class
 - 
