@@ -11,3 +11,6 @@ def PCUD():
     pet.setAge(age)
 
     userPetinfo(pet)
+
+if __name__ == "__main__":
+    PCUD()
