@@ -1,3 +1,4 @@
+from tkinter import Tk, Label, Entry, Button
 from PClass import Pet
 from PCuserdisplay import userdisplay, userPetinfo
 
