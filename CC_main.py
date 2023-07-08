@@ -1,7 +1,8 @@
-from Cclass import Car
+from CC_userdisplay import CCUD
 
-def main():
-    year_model = input("Enter the year model of the car: ")
-    make = input("Enter the the car object: ")
-
-    Ucar = Car(year_model, make)
+class Cmain:
+    def userdisplay(self):
+        year_model = input("Enter the year model of the car: ")
+        make = input("Enter the make of the car: ")
+    
+        car = Car(year_model, make)
