@@ -1,4 +1,4 @@
-from CC_userdisplay import CCUD
+from Cclass import Car
 
 class Cmain:
     def userdisplay(self):
@@ -10,3 +10,7 @@ class Cmain:
         for _ in range (5):
             car.accelerate()
             print("Current Speed: ", car.get_speed())
+        
+        for _ in range(5):
+            car.brake()
+            print("Current speed: ", car.get_speed())
