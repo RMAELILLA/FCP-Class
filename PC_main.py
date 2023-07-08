@@ -19,3 +19,7 @@ def GUI():
         pet.setAnimal_type(Animal_type_entry.get())
         pet.setAge(age_entry.get())
         userdisplay(pet)
+    
+    save_button =  Button(root, text="Save", command=savePetinfo)
+
+    
